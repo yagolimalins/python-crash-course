@@ -34,3 +34,34 @@ motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
 print(motorcycles)
 motorcycles.remove('ducati')
 print(motorcycles)
+
+#  Ordenar com sort()
+
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+cars.sort()
+print(cars)
+cars.sort(reverse=True)
+print(cars)
+
+#  Ordenar temporariamente com sorted()
+
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+
+print("Here is the original list:")
+print(cars)
+print("\nHere is the sorted list:")
+print(sorted(cars))
+print("\nHere is the original list again:")
+print(cars)
+
+#  Print em uma lista em ordem reversa reverse()
+
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print(cars)
+cars.reverse()
+print(cars)
+
+#  Descobrir o tamanho de uma lista len()
+
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print(len(cars))
