@@ -1,4 +1,4 @@
-from names import names
+names = ['Edgar', 'Eliana', 'Alicia']
 
 
 def greeting(name):
