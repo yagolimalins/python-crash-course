@@ -24,6 +24,8 @@ print()
 
 while album_collection:
     current_album = album_collection.pop()
-    for key, value in current_album.items():
-        print(key, value)
+    print("Artista: " + current_album['Artist'])
+    print("Album: " + current_album['Album'])
     print()
+    if current_album == []:
+        break
