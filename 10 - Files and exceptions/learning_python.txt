@@ -1,0 +1,8 @@
+variables
+lists
+working with lists
+if statements
+dictionaries
+user input and while loops
+functions
+classes
